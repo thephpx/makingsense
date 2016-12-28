@@ -1,9 +1,9 @@
 <?php
 require_once './src/Money.php';
 
-use PHPUnit\Framework\TestCase;
+require './vendor/autoload.php';
 
-class MoneyTest extends TestCase
+class MoneyTest extends PHPUnit_Framework_TestCase
 {
     // ...
 
