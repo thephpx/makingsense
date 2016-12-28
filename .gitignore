@@ -1,4 +1,3 @@
 .Vagrant
 .DS_Store
 Vagrantfile
-/vendor/
