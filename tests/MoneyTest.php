@@ -1,6 +1,6 @@
 <?php
-
-include('./src/Money.php');
+require_once 'PHPUnit/Autoload.php';
+require_once './src/Money.php';
 
 use PHPUnit\Framework\TestCase;
 
