@@ -6,9 +6,7 @@ before_script:
   - git config git-ftp.user $FTP_USER
   - git config git-ftp.password $FTP_PWD
 script:
-  - git ftp init
-  - git ftp push --force
-  #- ls -la
+  - git ftp push  
 addons:
   apt:
     update: true
