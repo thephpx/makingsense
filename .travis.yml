@@ -1,5 +1,7 @@
 dist: xenial
 sudo: true
+before_script:
+  - sudo apt-get install -y git-ftp
 script:
   - git config git-ftp.url $FTP_SERVER
   - git config git-ftp.user $FTP_USER
