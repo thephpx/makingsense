@@ -4,7 +4,7 @@ before_script:
   - sudo apt-get install -y git-ftp
 script:
   - ls -a
-  - git ftp catchup
+  - git ftp catchup --vv
 addons:
   apt:
     update: true
