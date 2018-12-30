@@ -1,7 +1,8 @@
 language: php
 dist: xenial
 sudo: true
-before_script:
+script:
+  - cd thephpx/makingsense
   - git config git-ftp.url $FTP_SERVER
   - git config git-ftp.user $FTP_USER
   - git config git-ftp.password $FTP_PWD
