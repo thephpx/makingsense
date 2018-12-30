@@ -7,7 +7,7 @@ script:
   - git config git-ftp.user $FTP_USER
   - git config git-ftp.password $FTP_PWD
   #- git ftp init
-  - git ftp push --auto-init
+  - git ftp push
   #- ls -la
 addons:
   apt:
