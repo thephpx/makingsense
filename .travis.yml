@@ -8,7 +8,7 @@ script:
   - git config git-ftp.user $FTP_USER
   - git config git-ftp.password $FTP_PWD
   - git ftp init
-  - git ftp push
+  - git ftp catchup
 addons:
   apt:
     update: true
